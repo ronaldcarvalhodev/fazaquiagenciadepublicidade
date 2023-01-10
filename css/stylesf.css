@@ -600,6 +600,7 @@ progress {
 }
 
 .img-fluid {
+  background-color: white;
   max-width: 100%;
   height: auto;
 }
@@ -7838,7 +7839,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #d0d0d0 !important;
 }
 
 .bg-dark {
@@ -11359,7 +11360,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 30px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11380,11 +11381,11 @@ p {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 3.2rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11397,7 +11398,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3.2rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11784,7 +11785,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* TAGS CRIADAS */
 
 .logo1 {
-  width: 900px;
+  width: 500px;
   
 }
 
@@ -11868,6 +11869,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .comeceaqui {
   text-decoration: none;
+
+}
+
+.chamada1 , .chamadaprincipal {
+  display: flex;
+  font-size: 3.5rem;
+  justify-content: center;
+  width: auto;
+  color: white;
+  text-shadow: 3px 5px 20px black;
+  text-align: center;
+  font-family: 'Salsa', cursive;
 
 }
 

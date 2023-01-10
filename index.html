@@ -15,6 +15,9 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/stylesf.css" rel="stylesheet" />
     </head>
@@ -29,11 +32,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Criação Web</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portifolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Criação web</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Passos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Equipe</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5586988271280" target="_blank">Compre Agora</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5586988271280" target="_blank">Compre Agora <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                            <path
+                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                        </svg></a></li>
                     </ul>
                 </div>
             </div>
@@ -49,6 +58,12 @@
                 <img class="logo1" src="./assets/img/logomarcafazaqui.png">
 
                 <br><br><br>
+                
+                <div class="chamada1">
+                    <h1 class="chamadaprincipal">Está na hora de melhorar as ideias</h1>
+                </div>
+                
+                <br><br><br>
 
                 <button class="botaoinicial">
                 <!-- <a class="btn btn-xl" style="color: black"; href="#services">CONHEÇA MAIS</a> -->
@@ -58,38 +73,6 @@
 
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Criação Web</h2>
-                    <h3 class="section-subheading text-muted">Produções de Website e Landing page</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <img class="imagem1" src="./assets/img/compras.jpg">
-                        </span>
-                        <h4 class="my-3">Website</h4>
-                        <p class="text-muted">As páginas da Web vinculadas a hiperlinks e hipertexto gerado com uma interface e um design prático. Seu site terá documentos e arquivos adicionais, como imagens, vídeos ou outros ativos digitais.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <img class="imagem1" src="./assets/img/pc.jpg">
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Usada para criar conteúdo que se ajusta suavemente a vários tamanhos de tela.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <img class="imagem1" src="./assets/img/cadeado.jpg">
-                        </span>
-                        <h4 class="my-3">Segurança Web</h4>
-                        <p class="text-muted">A segurança web se concentra em proteger sites, aplicativos baseados na internet e serviços online contra uma variedade de ataques maliciosos. Servindo para garantir o bom funcionamento e desempenho dos sites.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio" >
             <div class="container" >
@@ -105,7 +88,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.png" alt="..." />
+                                <img class="img-fluid bg-body" style="width: 50rem;" src="assets/img/portfolio/1.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Website</div>
@@ -120,7 +103,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
+                                <img class="img-fluid" style="width: 50rem;" src="assets/img/portfolio/2.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Logomarcas</div>
@@ -135,7 +118,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
+                                <img class="img-fluid" style="width: 50rem;" src="assets/img/portfolio/3.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Design Gráfico</div>
@@ -150,7 +133,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.png" alt="..." />
+                                <img class="img-fluid" style="width: 50rem;" src="assets/img/portfolio/4.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Impressos Gráficos</div>
@@ -167,7 +150,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.png" alt="..." />
+                                <img class="img-fluid" style="width: 50rem;" src="assets/img/portfolio/5.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Design Web</div>
@@ -182,13 +165,49 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.png" alt="..." />
+                                <img class="img-fluid" style="width: 50rem;" src="assets/img/portfolio/6.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Mobile</div>
                                 <div class="portfolio-caption-subheading text-muted">Criação de aplicativos android</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Criação Web</h2>
+                    <h3 class="section-subheading text-muted">Produções de Website e Landing page</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <img class="imagem1" src="./assets/img/compras.jpg">
+                        </span>
+                        <h4 class="my-3">Website</h4>
+                        <p class="text-muted">As páginas da Web vinculadas a hiperlinks e hipertexto gerado com uma interface e
+                            um design prático. Seu site terá documentos e arquivos adicionais, como imagens, vídeos ou outros
+                            ativos digitais.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <img class="imagem1" src="./assets/img/pc.jpg">
+                        </span>
+                        <h4 class="my-3">Responsive Design</h4>
+                        <p class="text-muted">Usada para criar conteúdo que se ajusta suavemente a vários tamanhos de tela.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <img class="imagem1" src="./assets/img/cadeado.jpg">
+                        </span>
+                        <h4 class="my-3">Segurança Web</h4>
+                        <p class="text-muted">A segurança web se concentra em proteger sites, aplicativos baseados na internet e
+                            serviços online contra uma variedade de ataques maliciosos. Servindo para garantir o bom
+                            funcionamento e desempenho dos sites.</p>
                     </div>
                 </div>
             </div>
@@ -212,7 +231,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-primary" style="width: 9.7rem" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-primary" style="max-width: 100%;height: auto;" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2º passo</h4>
